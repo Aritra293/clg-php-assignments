@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+<head>
+<title>display</title>
+<table>
+<tr>
+	<th>name</th>
+	<th>roll</th>
+	<th>city</th>
+	<th>email</th>
+	<th>dob</th>
+</tr>
+<?php
+include("connect.php");
+$sql="select * from student2 where dob between '2000-01-01' and '2005-12-31';";
+$data=mysqli_query($conn,$sql);
+while($res=mysqli_fetch_assoc($data))
+{
+	echo"<tr>
+			<td>".$res['NAME']."</td>
+			<td>".$res['ROLL']."</td>
+			<td>".$res['CITY']."</td>
+			<td>".$res['EMAIL']."</td>
+			<td>".$res['DOB']."</td>
+		</tr>";
+}
+?>
+</table>
+</body>
+</html> 

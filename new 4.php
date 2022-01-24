@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+<head>
+<title>display</title>
+<table>
+<tr>
+	<th>Ename</th>
+	<th>address</th>
+	<th>phno.</th>
+	<th>salary</th>
+	<th>category</th>
+	<th>language</th>
+</tr>
+<?php
+include("connect.php");
+$sql="select * from employee2 ;";
+$data=mysqli_query($conn,$sql);
+while($res=mysqli_fetch_assoc($data))
+{
+	echo"<tr>
+			<td>".$res['ENAME']."</td>
+			<td>".$res['ADDRESS']."</td>
+			<td>".$res['phno']."</td>
+			<td>".$res['SALARY']."</td>
+			<td>".$res['CATEGORY']."</td>
+			<td>".$res['LANGUAGE']."</td>
+		</tr>";
+}
+?>
+</table>
+</body>
+</html> 

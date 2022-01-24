@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+<h4>prg-9</h4>
+<pre> New Zealand team, at long last, are crowned the winners of the inaugural ICC World Test Championship</pre>
+</div>
+<h4>prg-10</h4>
+<q>Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.</q>
+<br>
+<cite>- Roy T. Bennett, The Light in the heart</cite>
+<br><br>
+<q>Impossible is for the unwilling.</q>
+<br>
+<cite>-John Keats</cite>
+</div>
+<h4>prg-11</h4>
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+<p>My favorite food is <del>momos</del> <ins>pizza</ins>.</p>
+<dl>
+    <dt>Oreo Shake</dt>
+    <dd>-chocolate shake</dd>
+    <dt>Mango Shake</dt>
+    <dd>- mango drink</dd>
+    <dt>Banana shake</dt>
+    <dd>-fruit drink</dd>
+    <dt>sprite</dt>
+    <dd>- cold drink</dd>
+    <dt>Coffee</dt>
+    <dd>- hot drink</dd>
+  </dl>
+  <h4>prg-12</h4>
+<address align="left">
+    64/1, Maniktala Main Road, 9th Floor <br>
+    [Beside Apollo Gleaneagles Hospital], <br>
+    EM Bypass, Kolkata, West Bengal 700054
+</address>
+<br><br>
+<address align="right">
+    1858/1, Rajdanga Main Rd, Sector 1,<br>
+     East Kolkata Twp, Kolkata,
+     West Bengal
+</address>
+
+</body>
+</html>
